@@ -23,7 +23,7 @@ p{
 }    
 
 
-img{
+.img{
     width: 500px;
     display: flex;
     align-items: center;
@@ -39,9 +39,12 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 5vh;
     height: 50vh;
     width: 100vw;
     gap: 2vh;
+    margin-bottom: 5vh;
 }
 
 .links a{
@@ -67,5 +70,24 @@ h3:hover{
     text-underline-offset: 10px;
     color: rgb(0, 0, 0);
     border: 5px solid black;
+
+}
+
+.footer p{
+    bottom: 0;
+    color: white;
+}
+
+@media only screen and (max-device-width: 1024px){
+    .img{
+        width: 75vw;
+        margin-top: 5vh;
+    }
+
+
+
+    h3{
+        width: 90vw;
+    }
 
 }
