@@ -11,7 +11,7 @@ body{
     justify-content: center;
     height: 100vh;
     align-items: center;
-    gap: 5vh;
+    gap: 10vh;
 }
 
 p{
@@ -97,7 +97,8 @@ h3:hover{
 
     body{
 
-        width: 100vw;
+        gap: 10vh;
+        height: 100vh;
     }
     
     h3{
