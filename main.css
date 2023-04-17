@@ -91,12 +91,9 @@ h3:hover{
 @media only screen and (max-device-width: 1024px){
     .img{
         width: 75vw;
-        
-        
     }
 
     body{
-
         gap: 10vh;
         height: 100vh;
     }
